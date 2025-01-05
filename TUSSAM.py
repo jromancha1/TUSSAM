@@ -4,7 +4,7 @@ from lxml import etree
 print "Utilización de API web con SOAP || TUSSAM"
 print ""
 
-cliente = Client('http://www.infobustussam.com:9001/services/dinamica.asmx?wsdl'
+cliente = Client('https://reddelineas.tussam.es/API/infotus-ui/buses/'
 	, retxml=True)
 
 numero = int(raw_input("Introduce el número de línea: "))
